@@ -1,0 +1,14 @@
+{
+  "name": "storage-zfs-resilver-priority-validator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "验证 ZFS resilver、scrub 和普通 I/O 的后台任务优先级调度（全部为模拟状态）",
+  "main": "src/scheduler.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/main.js"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  }
+}
